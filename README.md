@@ -4,8 +4,8 @@ A game modification for SCP-Secret Laboratory based on the EXILED framework. Thi
 ## Features
 - Setting up custom subclasses/private player's characters.
 - Customize basic game roles.
-- Creating roleplay names with required type of naming like: Signs/Firstname/Full (Firstname + Secondname)
-- Comfortable commands for interacting with plugin logic
+- Creating roleplay names with required type of naming like: Signs/Firstname/Full (Firstname + Secondname).
+- Comfortable commands for interacting with plugin logic.
 
 ## Commands
 ``.force <playerId> <subclassId>`` - Forcing player as selected subclass. __[RA COMMAND]__
