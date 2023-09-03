@@ -1,4 +1,4 @@
-# SubclassMod v2.0.3
+# SubclassMod v3.0.0
 A game modification for SCP-Secret Laboratory based on the EXILED framework. This modification will allow you to create your own subclasses and customize existing roles. <br><br> __EXILED 8.0.1__
 
 ## Features
