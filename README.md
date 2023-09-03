@@ -8,8 +8,9 @@ A game modification for SCP-Secret Laboratory based on the EXILED framework. Thi
 - Comfortable commands for interacting with plugin logic
 
 ## Commands
-``.force <playerId> <subclassId>`` - Forcing player as selected subclass [RA COMMAND]
-``.character-select <characterId`` - Forcing yourself as your character. Your steamid must be presented in character's config to spawn. [CC COMMAND] 
+``.force <playerId> <subclassId>`` - Forcing player as selected subclass. __[RA COMMAND]__
+<br>
+``.character-select <characterId>`` - Forcing yourself as your character. Your steamid must be presented in character's config to spawn.
 
 ## Configs setup guide
 ### Customization of basic game role
