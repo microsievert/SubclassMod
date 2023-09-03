@@ -236,7 +236,7 @@ namespace SubclassMod.Managers
             if (subclassInfo.MaxPlayers.Equals(0))
                 return true;
             
-            if (Random.Range(0f, 100f) >= subclassInfo.SpawnPercent)
+            if (Random.Range(0f, 100f) <= subclassInfo.SpawnPercent)
                 return false;
 
             if (!SubclassedCounter.ContainsKey(subclassInfo))

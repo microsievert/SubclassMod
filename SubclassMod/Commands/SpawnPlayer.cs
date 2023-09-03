@@ -8,8 +8,6 @@ using Exiled.Permissions.Extensions;
 
 using SubclassMod.Managers;
 
-using MEC;
-
 using SubclassMod.Models;
 
 namespace SubclassMod.Commands
