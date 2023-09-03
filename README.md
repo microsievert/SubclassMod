@@ -38,11 +38,11 @@ A game modification for SCP-Secret Laboratory based on the EXILED framework. Thi
     max_players: 2 # Maximum players allowed for that subclass
     health: 100 # Subclass health
     spawn_percent: 20 # Chance to spawn as this subclass
-    name: 'Уборочный персонал класса D' # Name that will be appear when player spawn
+    name: 'Class D Janitor' # Name that will be appear when player spawn
     description: 'N/A' # Description that will be appear when player spawn
     name_prefix: '' # Name prefix
     name_postfix: '' # Name postfix
-    custom_info: 'Уборщик класса D' # Subclassed player custom info
+    custom_info: 'Janitor' # Subclassed player custom info
     forceclass_only: false # Disable automatic spawning as that subclass
     base_role: ClassD # The base role of the current subclass
     spawn_method: SpawnZone # Current spawn method
@@ -64,8 +64,8 @@ A game modification for SCP-Secret Laboratory based on the EXILED framework. Thi
 ```yml
   - id: 2 # Unique character's id
     scale: 1 # Player's model scale 
-    name: 'Эдд' # Character DisplayName
-    info: 'Мужчина | 30 лет | Крепкое телосложение | На плече большая, дорогая кожаная сумка | Брюнет, волосы короткие.' # Character CustomInfo
+    name: 'Andrew' # Character DisplayName
+    info: 'Man | 30 years old at view. | AK-47 in the hands.' # Character CustomInfo
     base_role: Tutorial # Character base role
     spawn_zone: Entrance # Character spawn zone
     allowed_users: # Users that will be allowed to spawn as character
