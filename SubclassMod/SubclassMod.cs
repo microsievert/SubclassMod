@@ -14,7 +14,7 @@ namespace SubclassMod
         public override string Author => "microsievert";
         
         public override Version Version { get; } = new Version(3, 0, 0);
-        public override Version RequiredExiledVersion { get; } = new Version(8, 0, 1);
+        public override Version RequiredExiledVersion { get; } = new Version(8, 4, 2);
 
         private PlayerHandlers _playerHandlers;
 
@@ -36,7 +36,6 @@ namespace SubclassMod
             base.OnDisabled();
         }
         
-        // Events setup
 
         private void RegisterEvents()
         {
