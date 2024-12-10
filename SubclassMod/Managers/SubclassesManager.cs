@@ -3,7 +3,6 @@ using System.Linq;
 
 using Exiled.API.Enums;
 using Exiled.API.Features;
-using Exiled.CustomItems.API.Features;
 
 using SubclassMod.Enums;
 using SubclassMod.Components;
@@ -160,9 +159,6 @@ namespace SubclassMod.Managers
             foreach (ItemType item in subclassInfo.Items)
                 player.AddItem(item);
 
-            foreach (uint itemId in subclassInfo.CustomItems)
-                CustomItem.TryGive(player, itemId, false);
-
             foreach (AmmoType type in subclassInfo.Ammo.Keys)
                 player.AddAmmo(type, subclassInfo.Ammo[type]);
 
@@ -197,9 +193,6 @@ namespace SubclassMod.Managers
                 
                 foreach (ItemType item in roleInfo.InventoryOverwrite)
                     player.AddItem(item);
-                    
-                foreach (uint itemId in roleInfo.InventoryCustomItems)
-                    CustomItem.TryGive(player, itemId, false);
             }
         }
 
@@ -221,9 +214,6 @@ namespace SubclassMod.Managers
 
             foreach (ItemType item in characterInfo.InventoryOverride)
                 player.AddItem(item);
-            
-            foreach (uint itemId in characterInfo.InventoryCustomItems)
-                CustomItem.TryGive(player, itemId, false);
 
             player.Scale = Vector3.one * characterInfo.Scale;
 

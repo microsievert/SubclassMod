@@ -40,7 +40,7 @@ namespace SubclassMod
         private void RegisterEvents()
         {
             _playerHandlers = new PlayerHandlers();
-
+            
             Exiled.Events.Handlers.Player.Spawned += _playerHandlers.OnSpawned;
             Exiled.Events.Handlers.Player.ChangingRole += _playerHandlers.OnChangingRole;
         }

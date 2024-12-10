@@ -7,6 +7,7 @@ using SubclassMod.Enums;
 using SubclassMod.Patterns;
 
 using PlayerRoles;
+using UnityEngine;
 
 namespace SubclassMod.Managers
 {
@@ -17,11 +18,11 @@ namespace SubclassMod.Managers
             if (player.Role.Type == RoleTypeId.ClassD && SubclassMod.Instance.Config.ClassDNumbers)
             {
                 if (namingData == null)
-                    return $"{String.Format(SubclassMod.Instance.Translation.ClassDBadge, CalcNumericIdentify())} [{player.Nickname}]";
+                    return $"{String.Format(SubclassMod.Instance.Translation.ClassDBadge, CalcNumericIdentify())}";
 
-                return $"{namingData.NamePrefix}{String.Format(SubclassMod.Instance.Translation.ClassDBadge, CalcNumericIdentify())}{namingData.NamePostfix} [{player.Nickname}]";
+                return $"{namingData.NamePrefix}{String.Format(SubclassMod.Instance.Translation.ClassDBadge, CalcNumericIdentify())}{namingData.NamePostfix}";
             }
-
+            
             if (namingData == null)
                 return player.Nickname;
             
